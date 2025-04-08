@@ -19,8 +19,7 @@
 }
 #SignUp #SignUp-div1 {
     width:100%;
-    height: 60vh;
-    border: 1px solid black;
+    height: 40vh;
     background: linear-gradient(to right, rgb(90, 187, 248) ,rgb(234, 73, 194));
     display: flex;
     justify-content: center;
@@ -32,8 +31,7 @@
 }
 #SignUp-div2{
     width: 80%;
-    height: 100vh;
-    border: 1px solid black;
+    height: 170vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -60,4 +58,44 @@
 #gender .gender{
     display: flex;
     gap:220px;
+}
+#address .address{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.city{
+    display: flex;
+    gap:100px;
+}
+#dance-option{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#date-time .date-time{
+    display: flex;
+    gap:200px;
+}
+#message textarea{
+    height: 150px;
+    width: 540px;
+}
+#message textarea:hover{
+    border-color: rgb(56, 56, 252);
+    box-shadow: 1px 1px 5px 2px  rgb(75, 75, 249);
+}
+
+#button button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgb(11, 11, 65);
+    color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+#button button:hover{
+    width: 154px;
+    height: 44px;
 }
