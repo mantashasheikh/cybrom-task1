@@ -136,6 +136,9 @@
         gap:20px;
         padding-top: 40px; 
     }
+    p{
+        margin-left: 10px;
+    }
     
     #SignUp-div2 h1{
         font-size: 25px;
@@ -185,7 +188,7 @@
     }
     #date-time .date-time{
         display: flex;
-        gap:60px;
+        gap:25px;
         padding-left: 15px;
         padding-right: 15px;        
     }
