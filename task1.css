@@ -85,7 +85,7 @@
     box-shadow: 1px 1px 5px 2px  rgb(75, 75, 249);
 }
 
-#button button{
+ button{
     height: 40px;
     width: 150px;
     font-size: 20px;
@@ -94,7 +94,7 @@
     border-radius: 10px;
     margin-left: 200px;
 }
-#button button:hover{
+ button:hover{
     width: 154px;
     height: 44px;
 }
@@ -194,13 +194,13 @@
         width: 250px;
     }
     
-    #button button{
+     button{
         height: 30px;
         width: 100px;
         font-size: 15px;
        
     }
-    #button button:hover{
+     button:hover{
         width: 104px;
         height: 34px;
     }
