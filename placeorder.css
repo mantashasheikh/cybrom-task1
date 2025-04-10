@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* start to create a head part */
+/* headpart  */
+#headpart{
+    width:100%;
+    height: 100px;
+    border: 1px solid black;
+}
+#big-div{
+    width:100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(96, 85, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+   
+}
+#headpart{
+    position:fixed ;
+}
+
+#small-div1 h1{
+    color: rgb(194, 190, 186); 
+}
+#small-div2{
+    display: flex;
+    gap:2px
+}
+.search i{
+    font-size: 20px;
+    color: rgb(194, 190, 186);
+}
+.placeholder input{
+    height: 20px;
+    width: 300px;
+}
+#small-div3{
+    display: flex;
+    gap:10px;
+}
+#signup-btn{
+    height: 25px;
+    width:120px;
+    background-color:rgb(194, 190, 186); 
+    border-radius: 20px;
+}
+.cart i{
+    font-size: 20px;
+    color: rgb(194, 190, 186);
+}
+/* headpart1 */
+#headpart1{
+    width:100%;
+    height:150px;
+    background-color:rgb(194, 190, 186) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#img{
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+#img .img{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.img img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+}
+#nav ul a{
+    text-decoration: none;
+    color:rgb(77, 68, 60) ;
+}
+#nav ul{
+    list-style: none;
+}
+#sec1{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(194, 190, 186);
+    
+}
+#sec1 #home1{
+    width: 100%;
+}
+
+/* start to create placeorder */
+
+#placeorder{
+    width: 100%;
+    height:150vh;
+    border:1px solid #000000;
+    background-color:rgba(207, 209, 207, 0.834);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    padding-top: 100px;
+}
+#placeorder a{
+    text-decoration: none;
+}
+
+#items-order{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+#items-order img{
+    width:300px;
+    height:300px;
+}
+#items-order button{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+#items-order p{
+    color: black;
+}
+
+/* start to create order1 */
+
+
+
+
