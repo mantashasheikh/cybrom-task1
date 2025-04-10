@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* start to create a head part */
+/* headpart  */
+#headpart{
+    width:100%;
+    height: 100px;
+    border: 1px solid black;
+}
+#big-div{
+    width:100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(96, 85, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+   
+}
+#small-div1 h1{
+    color: rgb(194, 190, 186); 
+}
+#small-div2{
+    display: flex;
+    gap:2px
+}
+.search i{
+    font-size: 20px;
+    color: rgb(194, 190, 186);
+}
+.placeholder input{
+    height: 20px;
+    width: 300px;
+}
+#small-div3{
+    display: flex;
+    gap:10px;
+}
+#signup-btn{
+    height: 25px;
+    width:120px;
+    background-color:rgb(194, 190, 186); 
+    border-radius: 20px;
+}
+.cart i{
+    font-size: 20px;
+    color: rgb(194, 190, 186);
+}
+/* headpart1 */
+#headpart1{
+    width:100%;
+    height:150px;
+    background-color:rgb(194, 190, 186) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#img{
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+#img .img{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.img img{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+#nav ul{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+}
+#nav ul a{
+    text-decoration: none;
+    color:rgb(77, 68, 60) ;
+}
+#nav ul{
+    list-style: none;
+}
+/* same as headpart 1 */
+
+#sec1{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(194, 190, 186);
+    
+}
+#sec1 #home1{
+    width: 100%;
+    
+   
+
+}
+
+/* Start to create section 2 */
+
+#sec2{
+    width: 100%;
+    height: 70vh;
+}
+#home2{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(233, 223, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:300px;
+}
+
+#home2 div{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+#home2 div h1{
+    font-size: 60px;
+}
+#home2 div p{
+    line-height: 30px;
+    text-align: justify;
+}
+#home2 img{
+    width: 450px;
+    height:450px
+}
+
+/* start to create section 3 */
+ #sec3{
+    width: 100%;
+    height: 160vh;
+}
+#home3{
+    width: 100%;
+    height: 160vh;
+    border: 1px solid black;
+    background-color: rgb(243, 238, 231);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+
+}
+#home3 div{
+    width:300px;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+#home3 div img{
+    width: 300px;
+    height: 300px;
+}
+#home3 div h3{
+    font-size: 30px;
+}
+
+/* start to create footer */
+footer{
+    width: 100%;
+    height: 50vh;
+}
+#footer{
+    width: 100%;
+    height:50vh;
+    border: 1px solid black;
+    background-color: rgb(96, 85, 74);;
+}
+
