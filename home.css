@@ -20,6 +20,10 @@
     gap:400px;
    
 }
+#headpart{
+    position:fixed ;
+}
+
 #small-div1 h1{
     color: rgb(194, 190, 186); 
 }
@@ -78,6 +82,7 @@
     width:100px;
     border-radius: 50%;
 }
+
 #nav ul{
     display: flex;
     justify-content: center;
@@ -123,7 +128,7 @@
 
 #home2 div{
     width: 500px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
