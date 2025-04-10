@@ -95,6 +95,8 @@
 #nav ul{
     list-style: none;
 }
+
+
 #sec1{
     width: 100%;
     height: 150px;
@@ -147,6 +149,47 @@
 }
 
 /* start to create order1 */
+
+#order{
+    width: 100%;
+    height:200vh;
+}
+#order1{
+    width: 100%;
+    height:200vh;
+    border: 1px solid black;
+    background-color:rgba(207, 209, 207, 0.834); 
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#order1 #img{
+    width:800px;
+    height:800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#order1 #img img{
+    width: 800px;
+    height:600px;
+}
+.condition{
+    width:800px ;
+    height:150px;
+    display: flex;
+}
+.condition div{
+    width:200px;
+    height: 150px;
+    border: 1px solid black;
+
+}
+#about-order{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
 
 
 
