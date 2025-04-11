@@ -92,6 +92,10 @@
     text-decoration: none;
     color:rgb(77, 68, 60) ;
 }
+#nav ul a:hover{
+    font-size: 18px;
+}
+
 #nav ul{
     list-style: none;
 }
