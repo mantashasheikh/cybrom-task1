@@ -92,6 +92,9 @@
     text-decoration: none;
     color:rgb(77, 68, 60) ;
 }
+#nav ul a:hover{
+    font-size:18px ;
+}
 #nav ul{
     list-style: none;
 }
@@ -139,6 +142,11 @@
     width:300px;
     height:300px;
 }
+#items-order:hover{
+   opacity: 0.5;
+
+    
+}
 #items-order button{
     width: 150px;
     height: 25px;
@@ -166,7 +174,7 @@
 #order1 #img{
     width:800px;
     height:800px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 }
@@ -178,18 +186,223 @@
     width:800px ;
     height:150px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    background-color: rgb(177, 177, 241);
 }
 .condition div{
     width:200px;
     height: 150px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
+/* start to create about order */
 #about-order{
     width: 800px;
     height: 800px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+} 
+/* about product */
+#about-product{
+    width: 100%;
+    height: 100px;
+    display: flex;
 }
+.about-product1{
+    width:80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.about-product1 p{
+    color: rgb(110, 107, 107)
+}
+ b{
+    color: black;
+}
+.about-product2{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.about-product2 button{
+    width:100px;
+    border-radius: 10px;
+    background-color: rgb(176, 110, 110);
+}
+
+/* add to cart */
+#add-to-cart{
+    width: 100%;
+    height: 120px;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+.incre-decre{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.incre-decre div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#add-to-cart .button button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(13, 43, 37);
+    color: whitesmoke;
+
+}
+
+/* Offer */
+#offer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+}
+.offer-icon{
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
+}
+.p1{
+    color: rgb(110, 107, 107);
+}
+
+/* product details */
+
+#product-details{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px
+}
+#product-details div{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* need help */
+
+#help{
+    width: 100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+    background-color:rgb(228, 228, 228); ;
+}
+#help .div1 p{
+    color: rgb(110, 107, 107);;
+}
+#help .div2 p{
+    color: rgb(110, 107, 107);;
+}
+#help .div3 p{
+    color: rgb(110, 107, 107);;
+}
+#help .div2 div{
+    display: flex;
+    gap:10px;
+}
+#help .div3 div{
+    display: flex;
+    gap:10px;
+}
+
+/* footer */
+
+footer{
+    width:100%;
+    height:60vh;
+}
+#footer{
+    width:100%;
+    height:60vh;
+    border: 1px solid black;
+    background-color:rgb(96, 85, 74) ;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap:100px
+}
+.foot-div{
+    width:300px;
+    height: 400px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.signup-div{
+    width:300px;
+    height:400px;
+    line-height: 40px;
+    padding-top: 30px;
+}
+.signup-div button{
+    width:150px;
+    height:30px;
+    border-radius: 5px;
+    background-color:rgb(233, 223, 211) ;
+}
+.signup-div button a{
+     text-decoration: none;
+     color: rgb(72, 64, 55);
+}
+.signup-div button a:hover{
+    font-size: 15px;
+}
+.signup-div div{
+    display: flex;
+    gap:40px;
+    margin-top: 40px;
+}
+.signup-div div i{
+    font-size: 30px;
+}
+.signup-div div i:hover{
+    font-size: 35px;
+}
+
+
+
+
 
 
 
