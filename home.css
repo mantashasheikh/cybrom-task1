@@ -7,12 +7,12 @@
 #headpart{
     width:100%;
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #big-div{
     width:100%;
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: rgb(96, 85, 74);
     display: flex;
     justify-content: center;
@@ -251,10 +251,10 @@ footer{
 @media(max-width:430px){
 
     #headpart{
-        width:400px;
+        width: 100%;
     }
     #big-div{
-        width:400px;
+        width:100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -278,7 +278,7 @@ footer{
     }
     /* headpart1 */
     #headpart1{
-        width:400px;
+        width:100%;
         height:80px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -325,7 +325,7 @@ footer{
         
     }
     #sec1 #home1{
-        width: 400px;
+        width: 100%;
     }
     
     /* Start to create section 2 */
@@ -336,7 +336,7 @@ footer{
         padding-top: 60px;
     }
     #home2{
-        width:400px;
+        width:100%;
         height: 120vh; 
         display: flex;
         flex-direction: column;
@@ -367,7 +367,7 @@ footer{
     height: 160vh;
 }
 #home3{
-    width: 400px;
+    width: 100%;
     height: 140vh;
     display: grid;
     grid-template-columns: auto auto ;
@@ -399,7 +399,7 @@ footer{
     height:100vh;
 }
 #footer{
-    width:400px;
+    width:100%;
     height:100vh;
     display: grid;
     grid-template-columns: auto auto ;
