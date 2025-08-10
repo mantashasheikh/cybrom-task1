@@ -15,14 +15,15 @@
                     <h1>SignUp Form</h1>
                     
                         <form action="https://api.web3forms.com/submit" method="POST">
-                            <input type="hidden" name="access_key" value="8b16d229-b17b-477c-afef-3a73cbae23b7">
-
+                            <input   type="hidden" name="access_key" value="8b16d229-b17b-477c-afef-3a73cbae23b7">
+                             
                         <div id="small-div">
                         <div class=icon>
                             <i class="fa-solid fa-user"></i>
                         </div>
                         <div class="placeholder">
-                            <input type="text" placeholder="Enter Username" name="username">
+                            <input id="name" class="inp" type="text" placeholder="Enter Username" name="username">
+                            <p id="errname"></p>
                         </div>
                         </div>
 
@@ -31,7 +32,8 @@
                             <i class="fa-solid fa-envelope"></i>
                         </div>
                         <div class="placeholder">  
-                            <input type="email" placeholder="Enter Email" name="email">
+                            <input id="email"  class="inp" type="email" placeholder="Enter Email" name="email">
+                            <p id="erremail"></p>
                             
                         </div>
                         </div>
@@ -42,7 +44,8 @@
                             <i class="fa-solid fa-lock"></i>
                         </div>
                         <div class="placeholder">
-                            <input type="password" placeholder="Create Password" name="password">
+                            <input id="pass" class="inp" type="password" placeholder="Create Password" name="password">
+                            <p id="errpass"></p>
 
                         </div>
                         </div>
@@ -53,12 +56,13 @@
                             <i class="fa-solid fa-lock"></i>
                         </div>
                         <div class="placeholder">
-                            <input type="password" placeholder="Retype Password" name="retype password">
+                            <input id="cpass" class="inp" type="password" placeholder="Retype Password" name="retype password">
+                            <p id="errcpass"></p>
                         </div>
                         </div>
 
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                        <button type="submit">SignUp</button>
+                        <input class="inp" type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <button type="submit" id="btn" onclick="return formval()">SignUp</button>
                     
                     </form>
 
@@ -69,6 +73,10 @@
             </div>
         </section>
     </main>
+
+    <script src="signup.js"></script>
     
 </body>
+
+
 </html>
